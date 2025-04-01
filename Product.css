@@ -107,7 +107,7 @@ h1 {
     width: 30%;
 }
 .leftSide input {
-    font-size: 30px;
+    font-size: 25px;
 }
 .leftSide select {
     font-size: 30px;
@@ -207,7 +207,7 @@ h1 {
     background-color: #ff5900;
     border: 2px solid black;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .burger {
     background-color: transparent;
