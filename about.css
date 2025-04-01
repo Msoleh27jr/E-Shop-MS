@@ -241,9 +241,6 @@ h1 {
     flex-direction: column;
     gap: 20px;
   }
-  .firstSlide {
-    width: 300px;
-  }
   .carsina {
     width: 290px;
     height: 100vh;
