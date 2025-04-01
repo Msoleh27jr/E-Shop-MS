@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+#header {
+    background-image: url(../homeImg/Rectangle\ 37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+ul {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-size: 90px;
+    color: white;
+    font-family: "Charm", cursive;
+}
+.featured-section {
+    font-family: "Montserrat", sans-serif;
+}
+.conpN {
+    font-family: "Charm", cursive;
+}
+.butFont {
+    font-family: "Montserrat", sans-serif;
+}
+.yourBag {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Charm", cursive;
+}
+.namePrd {
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+}
+.totalP {
+    font-family: "Charm", cursive;
+    font-size: 40px;
+}
+.CHECKOUT{
+    background-color: #BA5D2C;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.total {
+    position: absolute;
+    width: 500px;
+    bottom: 20px;
+}
+.checkProduct {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.BUY {
+    background-color: greenyellow;
+    color: green;
+    padding: 3px 10px;
+    border: 2px solid green;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.CONCEL  {
+    background-color: red;
+    color: rgb(104, 1, 1);
+    padding: 3px 10px;
+    border: 2px solid rgb(104, 1, 1);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.allSum {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(82, 255, 47);
+}
+.done {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(55, 212, 55);
+    border: 2px solid forestgreen;
+}
+.btndone {
+    font-size: 44px;
+}
+@media(max-width: 430px){
+    .totalP {
+      font-size: 30px;
+  }
+  .CHECKOUT{
+      font-size: 20px;
+  }
+  .total {
+      width: 280px;
+  }
+  }

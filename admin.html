@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <dialog class="info"></dialog>
+    <dialog class="editModal">
+        <form class="editForm">
+            <input style="width: 100%; font-size: 25px;" type="text" name="img">
+            <input style="width: 100%; font-size: 25px;" type="text" name="name">
+            <select  style="font-size: 20px;" name="company">
+                <option value="IKEA">Ikea</option>
+                <option value="MARCOS">Marcos</option>
+                <option value="CARESSA">Caressa</option>
+                <option value="LIDDY">Liddy</option>
+            </select>
+            <select style="font-size: 20px;" name="select">
+                <option value="true">On Stock</option>
+                <option value="false">Out of Stock</option>
+            </select>
+            <input style="font-size: 20px; margin-bottom: 10px;" type="text" name="price">
+            <input type="color" name="color">
+            <textarea style="font-size: 16px; width: 100%; height: 100px;" name="disc"></textarea>
+            <button class="save" type="submit">Save</button>
+            <button type="button" class="concel">Concel</button>
+        </form>
+    </dialog>
+    <dialog class="AddModal">
+        <form class="AddForm">
+            <input style="width: 100%; font-size: 25px;" type="text" name="img" placeholder="Image URL">
+            <input style="width: 100%; font-size: 25px;" type="text" name="name" placeholder="Name">
+            <select  style="font-size: 20px;" name="company">
+                <option value="IKEA">Ikea</option>
+                <option value="MARCOS">Marcos</option>
+                <option value="CARESSA">Caressa</option>
+                <option value="LIDDY">Liddy</option>
+            </select>
+            <select style="font-size: 20px;" name="select">
+                <option value="true">On Stock</option>
+                <option value="false">Out of Stock</option>
+            </select>
+            <input style="font-size: 20px; margin-bottom: 10px;" type="text" name="price" placeholder="Price">
+            <input type="color" name="color">
+            <button class="addColor" type="button">add</button>
+            <textarea style="font-size: 16px; width: 100%; height: 100px;" name="disc" placeholder="Discription"></textarea>
+            <button class="save" type="submit">Save</button>
+            <button type="button" class="Concel">Concel</button>
+        </form>
+    </dialog>
+    <dialog class="forBurger">
+        <ul class="nav-linkss">
+            <li><a class="HomeBurger" href="./index.html">Home</a></li>
+            <li><a class="ProdcutBurger" href="./Product.html">Product</a></li>
+            <li><a class="aboutBurger" href="./about.html">About</a></li>
+            <li><a class="adminBurger" href="./admin.html">Admin</a></li>
+        </ul>
+    </dialog>
+    <header id="header">
+        <nav class="nav-container">
+            <ul class="nav-links">
+                    <li><a class="Home" href="./index.html">Home</a></li>
+                    <li><a class="Prodcut" href="./Product.html">Product</a></li>
+                    <li><a class="about" href="./about.html">About</a></li>
+                    <li><a class="admin" href="./admin.html">Admin</a></li>
+            </ul>
+            <button class="burger">=</button>
+                <h2 class="brand-name conpN">AccessMS</h2>
+                    <button class="btnCars">+</button>
+            </nav>
+            <div class="grayPlace">
+                <div class="hero-section">
+                    <h1>Home / Admin</h1>
+                </div>
+            </div>
+        </header>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="box"></tbody>
+            </table>
+        <script type="module" src="./JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+* {
+    margin: 0%;
+  }
+#header {
+    background-size: cover;
+    height: 30vh;
+}
+ul {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+  .nav-container {
+    display: flex;
+    max-width: 1660px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+  }
+  
+  .nav-links {
+    color: white;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    list-style: none;
+}
+.btnCars {
+    background-color: transparent;
+    border: none;
+  }
+  .brand-name {
+      color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.hero-section {
+    max-width: 1660px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 19vh;
+}
+.grayPlace {
+    width: 100%;
+    background-color: #F1F5F8;
+}
+.about {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.Home{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.admin {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+  }
+.Prodcut {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.conpN {
+    font-size: 50px;
+    font-family: "Charm", cursive;
+    color: black;
+}
+.cart-container {
+    position: relative;
+}
+
+.cart-count {
+    background-color: red;
+    position: absolute;
+    right: 0;
+    width: 25px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 50px;
+    height: 25px;
+}
+
+.cart-text {
+    color: white;
+    margin-top: 3px;
+}
+.box {
+    padding-top: 100px;
+    max-width: 1660px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.nameP {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(34, 34, 34, 0.84);
+}
+.nameC {
+    font-size: 30px;
+    color: rgba(35, 82, 117, 0.5);
+    font-family: "Charm", cursive;
+    font-weight: bold;
+}
+.praceP {
+    font-size: 30px;
+    color: rgba(35, 82, 117, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.disc {
+    font-size: 25px;
+    color: rgba(35, 82, 117, 1);
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.addToCart {
+    background-color: rgba(186, 93, 44, 1);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.statusP {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.divColor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.colors {
+    display: flex;
+    gap: 10px;
+}
+.carsina {
+    width: 500px;
+    height: 100vh;
+    position: absolute;
+    left: 1382px;
+  } 
+  .btnCarsConcel {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  .butFont {
+    font-family: "Montserrat", sans-serif;
+}
+.yourBag {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Charm", cursive;
+}
+.namePrd {
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+}
+.totalP {
+    font-family: "Charm", cursive;
+    font-size: 40px;
+}
+.CHECKOUT{
+    background-color: #BA5D2C;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.total {
+    position: absolute;
+    width: 500px;
+    bottom: 20px;
+}
+.checkProduct {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.BUY {
+    background-color: greenyellow;
+    color: green;
+    padding: 3px 10px;
+    border: 2px solid green;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.CONCEL  {
+    background-color: red;
+    color: rgb(104, 1, 1);
+    padding: 3px 10px;
+    border: 2px solid rgb(104, 1, 1);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.allSum {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: rgb(82, 255, 47);
+}
+.done {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(55, 212, 55);
+    border: 2px solid forestgreen;
+}
+.btndone {
+    font-size: 44px;
+}
+.burger {
+    background-color: transparent;
+    font-size: 40px;
+      border: none;
+      color: black;
+      display: none;
+    }
+    
+    .aboutBurger {
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+    }
+    .adminBurger {
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+    }
+    .HomeBurger {
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+    }
+    .ProdcutBurger {
+      color: black;
+      font-size: 30px;
+      text-decoration: none;
+    }
+    .imageValue {
+        width: 45%;
+        height: 490px;
+    }
+    @media(max-width: 430px){
+      .nav-links {
+        display: none;
+      } 
+      .burger {
+        display: inline;
+      }
+      #header {
+        padding: 5px;
+      }
+      .boxHome {
+        flex-direction: column;
+        gap: 20px;
+      }
+      .box {
+        padding-top: 100px;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    .rightSide {
+        width: 90%;
+        padding: 7px;
+    }
+    .imageValue {
+        width: 90%;
+        height: 300px;
+        padding: 10px;
+    }
+  .carsina {
+    width: 290px;
+    height: 100vh;
+    position: absolute;
+    left: 65px;
+  } 
+  .totalP {
+    font-size: 30px;
+}
+.CHECKOUT{
+    font-size: 20px;
+}
+.total {
+    width: 280px;
+}
+}

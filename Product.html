@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Product.css">
+</head>
+<body>
+    <dialog class="forBurger">
+        <ul class="nav-linkss">
+            <li><a class="HomeBurger" href="./index.html">Home</a></li>
+            <li><a class="ProdcutBurger" href="./Product.html">Product</a></li>
+            <li><a class="aboutBurger" href="./about.html">About</a></li>
+            <li><a class="adminBurger" href="./admin.html">Admin</a></li>
+        </ul>
+    </dialog>
+    <dialog class="carsina" style="position: relative;">
+        <button class="btnCarsConcel">❌</button>
+        <h2 class="yourBag">Your Bag</h2>
+        <div class="boxCarsina"></div>
+        <div class="total">
+            <div style="display: flex; justify-content: space-between;">
+                <p class="totalP">Total:</p>
+                <p class="totalP totalSuma">$0</p>
+            </div>
+            <button class="CHECKOUT">CHECKOUT</button>
+            <dialog class="checkProduct">
+                <h3 class="allSum">$0</h3>
+                <button class="BUY">BUY $</button>
+                <button class="CONCEL">CONCEL</button>
+            </dialog>
+            <dialog class="done">
+                <h3 class="btndone">✅</h3>
+            </dialog>
+        </div>
+    </dialog>
+    <header id="header">
+    <nav class="nav-container">
+        <ul class="nav-links">
+                <li><a class="Home" href="./index.html">Home</a></li>
+                <li><a class="Prodcut" href="./Product.html">Product</a></li>
+                <li><a class="about" href="./about.html">About</a></li>
+                <li><a class="admin" href="./admin.html">Admin</a></li>
+            </ul>
+            <button class="burger">=</button>
+            <h2 class="brand-name conpN">AccessMS</h2>
+            <div class="cart-container">
+                <div class="cart-count"><p class="cart-text cont">0</p></div>
+                <button class="btnCars"><img src="./aboutImg/map_grocery-or-supermarket.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="grayPlace">
+            <div class="hero-section">
+                <h1>Home / Product</h1>
+            </div>
+        </div>
+    </header>
+    <div class="bigBox">
+        <div class="leftSide">
+            <div class="formProduct">
+                <div>
+                    <input class="nPraduct" type="text" placeholder="search">
+                    <button class="nameProduct">search</button>
+                </div>
+                <select class="companyProduct">
+                    <option value="all">All</option>
+                    <option value="Ikea">Ikea</option>
+                    <option value="Marcos">Marcos</option>
+                    <option value="Caressa">Caressa</option>
+                    <option value="Liddy">Liddy</option>
+                </select>
+                <input type="range" class="praceProduct">
+                <p class="valueRange">Value : $0</p>
+            </div>
+        </div>
+        <div class="rightSide"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./Product.js"></script>
+</body>
+</html>
