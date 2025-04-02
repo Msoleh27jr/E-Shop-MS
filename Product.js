@@ -76,8 +76,10 @@ CHECKOUT.onclick = () => {
     getData(data)
 }
   btnCars.onclick = () => {
-    carsina.showModal()
-    editForCarsin(JSON.parse(localStorage.getItem("arrproducts")))
+  carsina.showModal()
+  editForCarsin(JSON.parse(localStorage.getItem("arrproducts")))
+  let dataArr  = JSON.parse(localStorage.getItem("arrproducts"))
+  sumPrice(dataArr)
     console.log(JSON.parse(localStorage.getItem("arrproducts")));
   }
   BUY.onclick = () => {
@@ -118,7 +120,8 @@ async function get() {
     console.error("Error fetching data:", error);
   }
 }
-
+let dataArr  = JSON.parse(localStorage.getItem("arrproducts"))
+cont.innerHTML = dataArr.length
 function editForCarsin(data){
     boxCarsina.innerHTML = ""
     data.forEach((e)=> {
@@ -310,5 +313,5 @@ function getData(data) {
         box.append(container);
     })
     };
-    
+
     get();

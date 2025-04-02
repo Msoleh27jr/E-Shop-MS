@@ -161,6 +161,10 @@ h1 {
     display: flex;
     gap: 10px;
 }
+.imageValue {
+  width: 45%;
+  height: 480px;
+}
 .carsina {
     width: 500px;
     height: 100vh;
