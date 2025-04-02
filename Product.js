@@ -32,6 +32,7 @@ btnCarsConcel.onclick = () => {
   }
 CHECKOUT.onclick = () => {
     checkProduct.showModal()
+  allSum.innerHTML = totalSuma.innerHTML
   }
   CONCEL.onclick = () => {
     checkProduct.close()

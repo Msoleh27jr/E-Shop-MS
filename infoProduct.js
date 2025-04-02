@@ -71,6 +71,7 @@ function funCount(ele) {
 cont.innerHTML = conter.length
 CHECKOUT.onclick = () => {
   checkProduct.showModal()
+  allSum.innerHTML = totalSuma.innerHTML
 }
 CONCEL.onclick = () => {
   checkProduct.close()

@@ -26,6 +26,7 @@ burger.onclick = () => {
 let arrproducts = [];
 CHECKOUT.onclick = () => {
   checkProduct.showModal()
+  allSum.innerHTML = totalSuma.innerHTML
 }
 CONCEL.onclick = () => {
   checkProduct.close()
@@ -91,7 +92,7 @@ function editForCarsin(data){
     contener.style.marginTop = "20px"
     let img = document.createElement("img")
     img.src = e.img
-    img.style.width = "200px"
+    img.style.width = "170px"
     img.style.height = "120px"
     let name = document.createElement("span")
     name.classList.add("namePrd")
