@@ -221,6 +221,7 @@ function getData(data){
         statusP.innerHTML = e.status == true ? "In Stock" : "Out of Stock"
         statusP.style.backgroundColor = e.status == true ? "green" : "red"
         disc.innerHTML = e.disc
+        praceP.innerHTML = e.price
         e.color.forEach((e)=> {
             let divcol = document.createElement("div")
             divcol.style.height = "50px"

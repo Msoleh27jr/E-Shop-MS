@@ -10,34 +10,25 @@ let btnCars = document.querySelector(".btnCars")
 let burger = document.querySelector(".burger");
 let forBurger = document.querySelector(".forBurger");
 let addColor = document.querySelector(".addColor");
-
 import { funEdit , funCheck , funDelete , funAdd} from "./api.js"
 
 burger.onclick = () => {
   forBurger.showModal()
 }
-function funedit(id) {
-    let forColor = [];
-    addColor.onclick = (event) => {
-        event.preventDefault();
-        let colorValue = editForm.target["color"].value;
-        if (colorValue) {
-            forColor.push(colorValue);
-            editForm["color"].value = "";
-        }
-    };
+function funedit(ele) {
     editForm.onsubmit = (event) => {
         event.preventDefault();
         let EditUser = {
+            id : ele.id,
             img: event.target["img"].value,
             name: event.target["name"].value,
-            color: forColor, 
+            color: event.target["color"].value, 
             company: event.target["company"].value,
             price: event.target["price"].value,
             disc: event.target["disc"].value,
             status: event.target["select"].value === "true",
         };
-        funEdit(id, EditUser);
+        funEdit(ele.id, EditUser);
     };
 }
 
@@ -47,10 +38,12 @@ btnCars.onclick = () => {
 Concel.onclick = () => {
     AddModal.close()
 }
+let forColor = []
+addColor.onclick = () => {
+    forColor.push(AddForm["color"].value)
+}
 AddForm.onsubmit = (event) => {
     event.preventDefault()
-    let forColor = []
-    forColor.push(event.target["color"].value)
     let NewUser = {
         img : event.target["img"].value ,
         name : event.target["name"].value ,
@@ -92,13 +85,15 @@ export function getData(data){
             concel.onclick = () => {
                 editModal.close()
             }
-            funedit(e.id)
+            funedit(e)
             editModal.showModal()
             editForm["name"].value = e.name
             editForm["img"].value = e.img
             editForm["company"].value = e.company
             editForm["price"].value = e.price
             editForm["color"].value = e.color[0]
+            console.log(e.color[0]);
+            
             editForm["disc"].value = e.disc
             editForm["select"].value = e.status == true ? "true" : "false"
         }
