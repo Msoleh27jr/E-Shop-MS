@@ -13,10 +13,15 @@ let CONCEL = document.querySelector(".CONCEL");
 let done = document.querySelector(".done");
 let forBurger = document.querySelector(".forBurger");
 let burger = document.querySelector(".burger");
+let concelBurger = document.querySelector(".concelBurger")
+
 let arrproducts = [];
 
 burger.onclick = () => {
   forBurger.showModal()
+}
+concelBurger.onclick = () => {
+  forBurger.close()
 }
 cont.innerHTML = conter.length
 CHECKOUT.onclick = () => {

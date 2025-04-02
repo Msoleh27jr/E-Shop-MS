@@ -13,7 +13,12 @@ let CONCEL = document.querySelector(".CONCEL");
 let done = document.querySelector(".done");
 let burger = document.querySelector(".burger");
 let forBurger = document.querySelector(".forBurger");
+let concelBurger = document.querySelector(".concelBurger")
 const API_URL = "http://localhost:3000/data";
+
+concelBurger.onclick = () => {
+  forBurger.close()
+}
 
 burger.onclick = () => {
   forBurger.showModal()

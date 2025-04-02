@@ -18,6 +18,8 @@ let praceProduct = document.querySelector(".praceProduct");
 let nPraduct = document.querySelector(".nPraduct");
 let burger = document.querySelector(".burger")
 let forBurger = document.querySelector(".forBurger");
+let concelBurger = document.querySelector(".concelBurger")
+
 const API_URL = "http://localhost:3000/data";
 
 burger.onclick = () => {
@@ -42,6 +44,9 @@ CHECKOUT.onclick = () => {
     } catch (error) {
         console.error(error);
     }
+  }
+  concelBurger.onclick = () => {
+    forBurger.close()
   }
   companyProduct.onchange = async () =>{
     if(companyProduct.value != "all"){

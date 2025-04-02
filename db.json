@@ -92,14 +92,20 @@
       "quantity": 1
     },
     {
-      "img": "https://s3-alpha-sig.figma.com/img/440f/4f83/1ed9ca0d112a86f5316f755a88ec0ef3?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DzMIWjPwvfXYgsvoWQKghx4WhAhj4p9dpfpRs8xhkAUQIZ2g9zBGPWa1WTHw0St-xvaTSzCthuXSYkgD5B2QQpl~ZL3EJNCovPXrtX8BrfdCv7qeOVj26aVuxbEgAQh~c~Sa4balZEfOcVwNjLMGPLRQ0jCcSgET2-EAk5cA2QmLkFKqtvLYlaYOm2EsQzBe8X65QY7AmONbGKVviPdsTgkjIS6ub0Ng4fo6ZqSGIaR0RSR7ivxP77y7oCWgYf-qhchC-V9hhrjr2Z94-FZxr0~ujZ75~iTlMNbcJ88xEQxHydpp7IQmPLCDFY5~ZRUvXstH-bW3iL5kEP6Da1gAfw__",
-      "name": "Sofa Set",
-      "color": [],
-      "company": "CARESSA",
-      "price": "$39.95",
-      "disc": "hkjlf eh kjh kjds kjnk n jds; fds ;kjkn kj;dssn kj;nh fjhkjlhdkjahfkjlh dkjlaslkfh kj hd kjlh lkfjkdkjls fkjn kjlsh fkjlh kjldsh kjfnkjnd skjfkj sjkfh;kjsh fkljhdsklh kjdsb kjlhndsklj fkjnkjdshlfksh klkjfkjlsd jfkjh dlsfjskd fkljds kjlf kls f",
+      "id": "b095",
+      "img": "https://s3-alpha-sig.figma.com/img/9e7e/66bd/d1575db81464f4c9c52602aaf6fb761b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nh2HseQ-5yUClZAd2p4shYvZlC11kIQkbNYEIcHICoJYkv7PQ9eUZXEBRqgdLjD4kqUAcQoTnpRCHemEApKkXGGwAyKjpLciOAzJM0If67Am~5Ezg8LOM4bCGZWUtSG3Uyodj0a6FEuZUuV6ExmWb8vm35SMWT6Z98Oi0PC4CO8wIau3SAra08Md5LqIIeSH2r1dh-lKjZSKzauXk7oFfCciX1kuknNlMSjY4WcoBA7S6tdDw96TCHV6K2RJf~dWFFqY~nrPHg6Uxlws~mPJoGKOFbVlrQdPZX5SDetmZc~xQatAKL29oXA0H~aGVSdD5-YyNIv5zbn400at2GVuqg__",
+      "name": "Ali11",
+      "color": [
+        "#d60000",
+        "#2f13be",
+        "#56ae71",
+        "#56ae71"
+      ],
+      "company": "IKEA",
+      "price": "$69.99",
+      "disc": "asdfg hjkl;' sdfghj sdfghj f gdhjkl gdncx hngy  lhjadbs hj, fbh khab sf  kjg  dsfkjkjkjvkj hjdsg dbjfdkj hjd jhbhjdb jdjb jdjjh jhd hjb dkjhjd hj hj hj hj hj hj hj jh hjdhhhfhghfhf h hbhdbhfbhfh fh ghhfhgfhfg",
       "status": true,
-      "id": "0e00"
+      "quantity": 1
     }
   ]
 }

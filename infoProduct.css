@@ -250,31 +250,96 @@ h1 {
       color: black;
       display: none;
     }
-    
     .aboutBurger {
-      color: black;
-      font-size: 30px;
-      text-decoration: none;
-    }
-    .adminBurger {
-      color: black;
-      font-size: 30px;
-      text-decoration: none;
-    }
-    .HomeBurger {
-      color: black;
-      font-size: 30px;
-      text-decoration: none;
-    }
-    .ProdcutBurger {
-      color: black;
-      font-size: 30px;
-      text-decoration: none;
-    }
-    .imageValue {
-        width: 45%;
-        height: 490px;
-    }
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0px 5px 0px white;
+      }
+      .burgerNameC {
+        font-family: "Charm", cursive;
+        font-size: 30px;
+      }
+      .adminBurger {
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0px 5px 0px white;
+      }
+      .HomeBurger {
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0px 5px 0px white;
+      }
+      .ProdcutBurger {
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0px 5px 0px white;
+      }
+      .forBurger {
+        width: 200px;
+        height: 40vh;
+      }
+      .concelBurger {
+        width: 100%;
+        padding: 5px 0px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: rgb(255, 187, 0);
+        border-radius: 10px;
+      }
+      .cantener{
+        width: 500px;
+        height: 400px;
+      }
+      .adminBurger:hover {
+        color: rgb(255, 187, 0);
+        box-shadow: 0px 5px 0px rgb(255, 187, 0);
+        transition: all 0.3s;
+      }
+      .HomeBurger:hover {
+        color: rgb(255, 187, 0);
+        box-shadow: 0px 5px 0px rgb(255, 187, 0);
+        transition: all 0.3s;
+      }
+      .ProdcutBurger:hover {
+        color: rgb(255, 187, 0);
+        box-shadow: 0px 5px 0px rgb(255, 187, 0);
+        transition: all 0.3s;
+      }
+      .aboutBurger:hover {
+        color: rgb(255, 187, 0);
+        box-shadow: 0px 5px 0px rgb(255, 187, 0);
+        transition: all 0.3s;
+      }
+      .adminBurger:active {
+        color: rgb(128, 255, 2);
+        box-shadow: 0px 5px 0px rgb(128, 255, 0);
+        transition: all 0.3s;
+      }
+      .HomeBurger:active {
+        color: rgb(128, 255, 0);
+       box-shadow: 0px 5px 0px rgb(128, 255, 0);
+        transition: all 0.3s;
+      }
+      .ProdcutBurger:active {
+        color: rgb(128, 255, 0);
+       box-shadow: 0px 5px 0px rgb(128, 255, 0);
+        transition: all 0.3s;
+      }
+      .aboutBurger:active {
+        color: rgb(128, 255, 0);
+       box-shadow: 0px 5px 0px rgb(128, 255, 0);
+        transition: all 0.3s;
+      }
+      .concelBurger:active {
+        color: rgb(128, 255, 0);
+        border: 1.5px solid rgb(128, 255, 0);
+       box-shadow: 0px 0px 10px rgb(128, 255, 0);
+        transition: all 0.3s;
+      }
     @media(max-width: 430px){
       .nav-links {
         display: none;

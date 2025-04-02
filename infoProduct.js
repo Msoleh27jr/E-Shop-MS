@@ -23,6 +23,8 @@ let done = document.querySelector(".done");
 let arrproducts = [];
 let burger = document.querySelector(".burger");
 let forBurger = document.querySelector(".forBurger");
+let concelBurger = document.querySelector(".concelBurger")
+
 
 burger.onclick = () => {
   forBurger.showModal()
@@ -38,6 +40,9 @@ addToCart.onclick = async () => {
     }
     console.log(data[0].status);
     
+}
+concelBurger.onclick = () => {
+  forBurger.close()
 }
 function funCount(ele) {
     let data = JSON.parse(localStorage.getItem("arrproducts"));

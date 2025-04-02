@@ -10,10 +10,15 @@ let btnCars = document.querySelector(".btnCars")
 let burger = document.querySelector(".burger");
 let forBurger = document.querySelector(".forBurger");
 let addColor = document.querySelector(".addColor");
+let concelBurger = document.querySelector(".concelBurger")
+
 import { funEdit , funCheck , funDelete , funAdd} from "./api.js"
 
 burger.onclick = () => {
   forBurger.showModal()
+}
+concelBurger.onclick = () => {
+    forBurger.close()
 }
 function funedit(ele) {
     editForm.onsubmit = (event) => {
