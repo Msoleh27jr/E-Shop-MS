@@ -10,7 +10,9 @@ let btnCars = document.querySelector(".btnCars")
 let burger = document.querySelector(".burger");
 let forBurger = document.querySelector(".forBurger");
 let addColor = document.querySelector(".addColor");
+let editColor = document.querySelector(".editColor");
 let concelBurger = document.querySelector(".concelBurger")
+let colorNumber = document.querySelector(".colorNumber")
 
 import { funEdit , funCheck , funDelete , funAdd} from "./api.js"
 
@@ -20,6 +22,12 @@ burger.onclick = () => {
 concelBurger.onclick = () => {
     forBurger.close()
 }
+let EditforColor = []
+
+editColor.onclick = () => {
+    EditforColor.push(editForm["color"].value)
+    colorNumber.innerHTML = EditforColor.length
+}
 function funedit(ele) {
     editForm.onsubmit = (event) => {
         event.preventDefault();
@@ -27,11 +35,12 @@ function funedit(ele) {
             id : ele.id,
             img: event.target["img"].value,
             name: event.target["name"].value,
-            color: event.target["color"].value, 
+            color: EditforColor, 
             company: event.target["company"].value,
             price: event.target["price"].value,
             disc: event.target["disc"].value,
             status: event.target["select"].value === "true",
+            quantity : 1
         };
         funEdit(ele.id, EditUser);
     };

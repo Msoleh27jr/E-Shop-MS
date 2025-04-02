@@ -1,48 +1,11 @@
 {
   "data": [
     {
-      "id": "83a4",
-      "img": "https://s3-alpha-sig.figma.com/img/0d36/7eb2/71e5a4112fdd430ae406c02523641cb4?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l~dxHVOBS8g-DcD5S7ScVxTtAXGXbzjnz6SzqOBMp-qZVmB3LTxX~keaEPXn2PirBjuFO1nOsVo-1Nv-UeiWkrybYu2heb-4TDKnIFX3Xdwm1tLn7Gb7vmuEzVvTGznz-N6LaZBDfVa1ZtWxlzzQ82z2H1JCja5TWA~arZ4HLiPFW7su7cAk~MbCjnvv~8WMbW96nGH6KYgCmGtn1JLGp-HdPhBPq~0ESjsTv7s9LEvAtdIkQVG7GrjvMSaRNG3we2~COoToSUdtQCCW9Lh0ne2PvtijCtGW6q~j7k2uVw4Za1Y8~-e2it-H88U1zzcoYfRXcDuwQLWm661ejfdsAQ__",
-      "name": "Accent Chair",
-      "color": [
-        "#d4ff00"
-      ],
-      "company": "IKEA",
-      "price": "$25.99",
-      "disc": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
-      "status": false,
-      "quantity": 1
-    },
-    {
-      "id": "8289",
-      "img": "https://s3-alpha-sig.figma.com/img/69ef/e151/0c692763ae2e411fe1c9608723d4b0b1?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=mldUvm5TAERFic17ZNDyequNIn4FQxOOn8P9Gtqo6nM~dcE~81O-OvOdIABPkqNzw7-dQagMRaN7U42uB-X4ijXwLNe0a5qXAHYEmZPbDyvkU8mdIrUP7rDTK3KRs1CvYBur-~Xj-c~1uZRLkAOD9gkRi8bDUiuWRJFBASkU46hDENbTy-KrDeQFOlFASPVaNbT~BBfuT6x9rPa2sLybLrx0a4EnznMB73eE1CZwrbPCV1QRFYqUP4572pPZGm9sJYQDT8uPUJ1VYVci5wo7FbiOj9pzHezX2vKPCcMV~k6yAefmpYpdncs2UUbRqvts2MdHiHziiVEwwYEwfKirWQ__",
-      "name": "Wooden Table",
-      "color": "#000000",
-      "company": "MARCOS",
-      "price": "$45.99",
-      "disc": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
-      "status": true,
-      "quantity": 1
-    },
-    {
-      "id": "ebbd",
-      "img": "http://s3-alpha-sig.figma.com/img/440f/4f83/1ed9ca0d112a86f5316f755a88ec0ef3?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DzMIWjPwvfXYgsvoWQKghx4WhAhj4p9dpfpRs8xhkAUQIZ2g9zBGPWa1WTHw0St-xvaTSzCthuXSYkgD5B2QQpl~ZL3EJNCovPXrtX8BrfdCv7qeOVj26aVuxbEgAQh~c~Sa4balZEfOcVwNjLMGPLRQ0jCcSgET2-EAk5cA2QmLkFKqtvLYlaYOm2EsQzBe8X65QY7AmONbGKVviPdsTgkjIS6ub0Ng4fo6ZqSGIaR0RSR7ivxP77y7oCWgYf-qhchC-V9hhrjr2Z94-FZxr0~ujZ75~iTlMNbcJ88xEQxHydpp7IQmPLCDFY5~ZRUvXstH-bW3iL5kEP6Da1gAfw__",
-      "name": "Dining Table",
-      "color": [
-        "#11cfe8"
-      ],
-      "company": "LIDDY",
-      "price": "$6.99",
-      "disc": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic  chillwave  trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge ",
-      "status": false,
-      "quantity": 1
-    },
-    {
       "id": "ea7c",
       "img": "https://s3-alpha-sig.figma.com/img/9e7e/66bd/d1575db81464f4c9c52602aaf6fb761b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nh2HseQ-5yUClZAd2p4shYvZlC11kIQkbNYEIcHICoJYkv7PQ9eUZXEBRqgdLjD4kqUAcQoTnpRCHemEApKkXGGwAyKjpLciOAzJM0If67Am~5Ezg8LOM4bCGZWUtSG3Uyodj0a6FEuZUuV6ExmWb8vm35SMWT6Z98Oi0PC4CO8wIau3SAra08Md5LqIIeSH2r1dh-lKjZSKzauXk7oFfCciX1kuknNlMSjY4WcoBA7S6tdDw96TCHV6K2RJf~dWFFqY~nrPHg6Uxlws~mPJoGKOFbVlrQdPZX5SDetmZc~xQatAKL29oXA0H~aGVSdD5-YyNIv5zbn400at2GVuqg__",
       "name": "Sofa Set",
       "color": [
-        "#000000"
+        "#e60000"
       ],
       "company": "IKEA",
       "price": "$69.99",
@@ -94,15 +57,32 @@
       "img": "https://s3-alpha-sig.figma.com/img/9e7e/66bd/d1575db81464f4c9c52602aaf6fb761b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nh2HseQ-5yUClZAd2p4shYvZlC11kIQkbNYEIcHICoJYkv7PQ9eUZXEBRqgdLjD4kqUAcQoTnpRCHemEApKkXGGwAyKjpLciOAzJM0If67Am~5Ezg8LOM4bCGZWUtSG3Uyodj0a6FEuZUuV6ExmWb8vm35SMWT6Z98Oi0PC4CO8wIau3SAra08Md5LqIIeSH2r1dh-lKjZSKzauXk7oFfCciX1kuknNlMSjY4WcoBA7S6tdDw96TCHV6K2RJf~dWFFqY~nrPHg6Uxlws~mPJoGKOFbVlrQdPZX5SDetmZc~xQatAKL29oXA0H~aGVSdD5-YyNIv5zbn400at2GVuqg__",
       "name": "Ali11",
       "color": [
-        "#d60000",
-        "#2f13be",
-        "#56ae71",
-        "#56ae71"
+        "#eaa4a4",
+        "#0832d9"
       ],
       "company": "IKEA",
       "price": "$69.99",
       "disc": "asdfg hjkl;' sdfghj sdfghj f gdhjkl gdncx hngy  lhjadbs hj, fbh khab sf  kjg  dsfkjkjkjvkj hjdsg dbjfdkj hjd jhbhjdb jdjb jdjjh jhd hjb dkjhjd hj hj hj hj hj hj hj jh hjdhhhfhghfhf h hbhdbhfbhfh fh ghhfhgfhfg",
       "status": true,
+      "quantity": 1
+    },
+    {
+      "id": "15ca",
+      "img": "https://s3-alpha-sig.figma.com/img/440f/4f83/1ed9ca0d112a86f5316f755a88ec0ef3?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DzMIWjPwvfXYgsvoWQKghx4WhAhj4p9dpfpRs8xhkAUQIZ2g9zBGPWa1WTHw0St-xvaTSzCthuXSYkgD5B2QQpl~ZL3EJNCovPXrtX8BrfdCv7qeOVj26aVuxbEgAQh~c~Sa4balZEfOcVwNjLMGPLRQ0jCcSgET2-EAk5cA2QmLkFKqtvLYlaYOm2EsQzBe8X65QY7AmONbGKVviPdsTgkjIS6ub0Ng4fo6ZqSGIaR0RSR7ivxP77y7oCWgYf-qhchC-V9hhrjr2Z94-FZxr0~ujZ75~iTlMNbcJ88xEQxHydpp7IQmPLCDFY5~ZRUvXstH-bW3iL5kEP6Da1gAfw__",
+      "name": "Ali",
+      "color": [
+        "#eb0000",
+        "#ff00bb",
+        "#001eff",
+        "#00fffb",
+        "#00ff2a",
+        "#fbff00",
+        "#ff4000"
+      ],
+      "company": "IKEA",
+      "price": "$39.95",
+      "disc": "hello world my name is Ali this product so good for busines njklf dsf l;kj lkj ldkjsg dsgfdgfdgdfgtr h trhtrh trh trbtrntr sthbstrntrsn tnb trn rtntnrntn tn rtn tn tsrt srtn trn fb ds",
+      "status": false,
       "quantity": 1
     }
   ]
