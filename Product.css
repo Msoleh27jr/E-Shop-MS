@@ -240,10 +240,10 @@ h1 {
     box-shadow: 0px 5px 0px white;
   }
   .ProdcutBurger {
-    color: black;
+    color: rgb(255, 187, 0);
     font-size: 30px;
     text-decoration: none;
-    box-shadow: 0px 5px 0px white;
+    box-shadow: 0px 5px 0px rgb(255, 187, 0);
   }
   .forBurger {
     width: 200px;
@@ -267,11 +267,6 @@ h1 {
     transition: all 0.3s;
   }
   .HomeBurger:hover {
-    color: rgb(255, 187, 0);
-    box-shadow: 0px 5px 0px rgb(255, 187, 0);
-    transition: all 0.3s;
-  }
-  .ProdcutBurger:hover {
     color: rgb(255, 187, 0);
     box-shadow: 0px 5px 0px rgb(255, 187, 0);
     transition: all 0.3s;

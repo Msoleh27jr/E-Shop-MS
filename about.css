@@ -207,10 +207,10 @@ h1 {
   display: none;
 }
 .aboutBurger {
-  color: black;
+  color: rgb(255, 187, 0);
+  box-shadow: 0px 5px 0px rgb(255, 187, 0);
   font-size: 30px;
   text-decoration: none;
-  box-shadow: 0px 5px 0px white;
 }
 .burgerNameC {
   font-family: "Charm", cursive;
@@ -261,11 +261,6 @@ h1 {
   transition: all 0.3s;
 }
 .ProdcutBurger:hover {
-  color: rgb(255, 187, 0);
-  box-shadow: 0px 5px 0px rgb(255, 187, 0);
-  transition: all 0.3s;
-}
-.aboutBurger:hover {
   color: rgb(255, 187, 0);
   box-shadow: 0px 5px 0px rgb(255, 187, 0);
   transition: all 0.3s;

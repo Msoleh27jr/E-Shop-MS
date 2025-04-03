@@ -26,7 +26,6 @@ let EditforColor = []
 
 editColor.onclick = () => {
     EditforColor.push(editForm["color"].value)
-    colorNumber.innerHTML = EditforColor.length
 }
 function funedit(ele) {
     editForm.onsubmit = (event) => {
