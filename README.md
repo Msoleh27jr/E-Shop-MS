@@ -17,5 +17,5 @@ This project is a modern internet shop called **E-Shop**, built with pure JavaSc
 
 ## 📁 Project Structure
 
-- **Frontend**: Vanilla JavaScript, HTML, CSS  
+- **Frontend**: JavaScript, HTML, CSS  
 - **Backend**: Simulated using `json-server` with `db.json`
